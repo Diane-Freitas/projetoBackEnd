@@ -1,12 +1,45 @@
 # Projeto-Backend
 
-Este é um Projeto de Back-end  para segunda nota de avaliação da geração tech.
-
-
-
+Desenvolvimento de Projeto Back-end com objetivo avaliativo, destinado ao término do curso Geração Tech Terceira Edição.
 
 ## Tecnologias Utilizadas
 
  - [Mysql](https://www.mysql.com)
  - [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
  - [Node.js](<https://nodejs.org/en/>)
+
+ # Intalar o projeto
+
+```bash
+# Clone o repositório
+$ git clone <https://github.com/Diane-Freitas/projetoBackEnd.git>
+
+# Acesse a pasta do projeto no terminal/cmd
+$ cd nlw1 (nome da pasta)
+
+# No terminal digitar (ou abra diretamente o VsCode ou outro visualizador de codigo)
+$ code .
+
+# Instalar dependências
+$ npm install
+
+# Executar a aplicação
+$ npm start
+
+#passo 2 
+
+$No site instale o mysql server e o workbench;
+obs: usuario e login deve ser root ou alterar o usuario e senha e adicionar o mesmo do mysql no arquivo database.js
+
+#passo 3
+$no VsCode rodar o arquivo syncforce para criar as tabelas do banco de dados e
+ executar no terminal : node database/syncforce.js
+
+#passo 4 
+$ Para testar rotas e criar produtos utiliza-se o programa insomnia ou postman 
+
+```
+    
+## Criação
+
+- [Diane Freitas](https://github.com/Diane-Freitas)
